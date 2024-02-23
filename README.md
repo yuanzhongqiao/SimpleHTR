@@ -7,7 +7,7 @@
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2020 更新：代码与 TF2 兼容</font></font></strong></li>
 </ul>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 TensorFlow (TF) 实现的手写文本识别 (HTR) 系统，并在 IAM 离线 HTR 数据集上进行训练。</font><font style="vertical-align: inherit;">该模型将</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单个单词或文本行（多个单词）的图像作为输入</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输出识别的文本</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">验证集中 3/4 的单词被正确识别，字符错误率约为 10%。</font></font></p>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/githubharald/SimpleHTR/blob/master/doc/htr.png"><img src="/githubharald/SimpleHTR/raw/master/doc/htr.png" alt="高温" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/githubharald/SimpleHTR/blob/master/doc/htr.png"><img src="https://github.com/githubharald/SimpleHTR/raw/master/doc/htr.png" alt="高温" style="max-width: 100%;"></a></p>
 <h2 tabindex="-1" dir="auto"><a id="user-content-run-demo" class="anchor" aria-hidden="true" tabindex="-1" href="#run-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行演示</font></font></h2>
 <ul dir="auto">
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载预训练模型之一
@@ -26,7 +26,7 @@
 </li>
 </ul>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用文本行模型时的输入图像和预期输出如下所示。</font></font></p>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/githubharald/SimpleHTR/blob/master/data/word.png"><img src="/githubharald/SimpleHTR/raw/master/data/word.png" alt="测试" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/githubharald/SimpleHTR/blob/master/data/word.png"><img src="https://github.com/githubharald/SimpleHTR/raw/master/data/word.png" alt="测试" style="max-width: 100%;"></a></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>&gt; python main.py
 Init with stored values from ../model/snapshot-13
 Recognized: "word"
@@ -44,7 +44,7 @@ Probability: 0.9806370139122009" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/githubharald/SimpleHTR/blob/master/data/line.png"><img src="/githubharald/SimpleHTR/raw/master/data/line.png" alt="测试" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/githubharald/SimpleHTR/blob/master/data/line.png"><img src="https://github.com/githubharald/SimpleHTR/raw/master/data/line.png" alt="测试" style="max-width: 100%;"></a></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>&gt; python main.py --img_file ../data/line.png
 Init with stored values from ../model/snapshot-13
 Recognized: "or work on line level"
